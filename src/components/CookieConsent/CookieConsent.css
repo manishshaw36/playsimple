@@ -1,0 +1,37 @@
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: var(--primary-black);
+}
+
+.cookie-consent p {
+    color: var(--primary-grey);
+}
+
+.cookie-consent h3 {
+    margin-top: 5px;
+    color: var(--primary-white);
+}
+
+.btn-gotit {
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-blue);
+}
+
+.show-consent {
+    display: flex;
+}
+
+.hide-consent {
+    display: none;
+}

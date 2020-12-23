@@ -1,0 +1,85 @@
+.footer {
+    background-color: var(--primary-black);
+    padding: 50px 0 100px 0;
+
+}
+
+.footer-container {
+    color: var(--primary-white);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer-social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .fa {
+    margin: 20px 30px 5px 0;
+    font-size: 30px;
+}
+
+.footer-container hr {
+    margin: 20px 0;
+}
+
+.footer-container .terms > span {
+    margin: 40px 20px 0px 0;
+    display: inline-block;
+}
+
+.footer-container .footer-end {
+    display: flex;
+}
+
+.footer-container .address {
+    color: var(--primary-grey);
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 13px;
+    width: 75%;
+}
+
+.footer-container .logo {
+    width: 25%;
+    position: relative;
+}
+
+.footer-container .logo a{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 54px;
+    height: 46px;
+    text-indent: -9999px;
+    outline: none;
+    background: url(https://cdn.supercell.com/supercell.com/201215100024/all/themes/supercell/img/logo_supercell@2x.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.footer-container .app-stores {
+    display: flex;
+}
+
+.footer-container .appstore {
+    text-decoration: none;
+    width: 147px;
+    height: 50px;
+    background: url(https://cdn.supercell.com/supercell.com/201215100024/all/themes/supercell/img/18/footer_appstore.png) no-repeat;
+    text-indent: -9999px;
+    background-size: 100% auto;
+    margin-right: 10px;
+}
+
+.footer-container .googleplay {
+    text-decoration: none;
+    width: 166px;
+    height: 50px;
+    background: url(https://cdn.supercell.com/supercell.com/201215100024/all/themes/supercell/img/18/footer_googleplay.png) no-repeat;
+    text-indent: -9999px;
+    background-size: 100% auto;
+}

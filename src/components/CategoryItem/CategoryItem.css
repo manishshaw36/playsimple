@@ -1,0 +1,28 @@
+.category-item {
+    width: 48%;
+    margin: 50px 0 20px 0;
+    font-family: sans-serif;
+}
+
+.category-item-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.category-title, .category-subtitle {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.category-subtitle {
+    color: #fb4a9d;
+    text-transform: uppercase;
+}
+
+.category-title {
+    font-weight: bold;
+    font-size: 20px;
+}

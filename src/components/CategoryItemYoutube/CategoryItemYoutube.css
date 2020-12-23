@@ -1,0 +1,16 @@
+.category-item {
+    width: 48%;
+    margin: 50px 0 20px 0;
+    font-family: sans-serif;
+}
+
+.category-item .youtube-title {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    padding: 2em 158px 2em 42px;
+    text-decoration: none;
+    background: url(https://cdn.supercell.com/supercell.com/201221211937/all/themes/supercell/img/18/bg_logo_youtube.png) no-repeat;
+    background-size: 100px auto;
+    background-position: 92% center;
+}

@@ -1,0 +1,58 @@
+.navbar {
+    background-color: var(--primary-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 0;
+    color: var(--primary-grey);
+    margin-right: 60px !important;
+    font-size: 17px;
+}
+
+.navbar a.menu-logo {
+    padding: 0;
+}
+
+.navbar > img{
+    padding: 50px 0;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.nav-items-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu:hover + .sub-menu {
+    display: block;
+}
+
+.sub-menu:hover {
+    display: block;
+}
+
+.sub-menu {
+    padding: 0 80px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
